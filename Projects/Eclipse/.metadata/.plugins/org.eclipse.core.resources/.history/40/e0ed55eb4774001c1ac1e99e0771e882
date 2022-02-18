@@ -1,0 +1,22 @@
+package www.holo;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+		Student student = new Student(1001, "ÕÅÈı", "ÄĞ");
+
+	}
+
+}
+
+class Student {
+	private int id;
+	private String name;
+	private String sex;
+
+	public Student(int i, String username, String xb) {
+		id = i;
+		name = username;
+		sex = xb;
+	}
+}

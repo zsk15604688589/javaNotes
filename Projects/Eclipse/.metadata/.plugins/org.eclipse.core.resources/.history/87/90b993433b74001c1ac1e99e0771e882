@@ -1,0 +1,13 @@
+package www.holo;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		Student student = new Student();
+
+	}
+
+}
+class Student{
+	//系统默认分配了一个无参数的构造方法
+}
