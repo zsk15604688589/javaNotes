@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="438d2e1d-6552-4d52-8dee-237e8f1fe703" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/holo/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/holo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/holo1/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/holo1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/holo2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/holo3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/DemoTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/DemoTest10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/DemoTest11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/DemoTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/DemoTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/DemoTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/DemoTest5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/DemoTest6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/DemoTest7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/DemoTest8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/DemoTest9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/test/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Eclipse/Day08/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../Eclipse/Day08/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Eclipse/Day08/bin/www/holo/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Eclipse/Day08/bin/www/holo/Demo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Eclipse/Day09/Day09/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../Eclipse/Day09/Day09/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Eclipse/Day10/Day10/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../Eclipse/Day10/Day10/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_Day02/src/com/holo/PrintChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_Day02/src/com/holo/PrintChar.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25Hei0ihhWUslJCku9vW3oiBarY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="JUnit.DemoTest11.test2">
+    <configuration name="DemoTest10.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project_Day23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.DemoTest10" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoTest11.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project_Day23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.DemoTest11" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoTest11.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project_Day23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.DemoTest11" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoTest7.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project_Day23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.DemoTest7" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoTest8.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project_Day23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.DemoTest8" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemoTest11.test2" />
+        <item itemvalue="JUnit.DemoTest11.test1" />
+        <item itemvalue="JUnit.DemoTest10.test1" />
+        <item itemvalue="JUnit.DemoTest8.test1" />
+        <item itemvalue="JUnit.DemoTest7.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="438d2e1d-6552-4d52-8dee-237e8f1fe703" name="变更" comment="" />
+      <created>1645188563419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645188563419</updated>
+      <workItem from="1645188564911" duration="13675000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
