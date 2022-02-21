@@ -34,7 +34,6 @@ public void test1() {
 package com.test;
 
 import org.junit.Test;
-
 import java.util.*;
 
 /**
@@ -765,3 +764,4 @@ public void test2() throws Exception {
     System.out.println(name + "\t" + sex + "\t" + age);
 }
 ```
+

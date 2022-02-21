@@ -1,6 +1,6 @@
-[点击Java大数据开发体系介绍导图](./PDF/Day01_Java开发体系介绍.pdf)
+[点击Java大数据开发体系介绍导图](PDF/Day01_Java开发体系介绍.pdf)
 
-[点击打开大数据介绍导图](./PDF/Day01_大数据介绍.pdf)
+[点击打开大数据介绍导图](PDF/Day01_大数据介绍.pdf)
 
 
 
@@ -16,7 +16,7 @@
 
 ## 1.2.1 JavaSE、JavaEE、JavaME三者之间关系
 
-<img src="./Img/JavaSE、JavaEE、JavaME关系.png" alt="JavaSE、JavaEE、JavaME关系" style="zoom: 50%;" />
+<img src="Img/JavaSE、JavaEE、JavaME关系.png" alt="JavaSE、JavaEE、JavaME关系" style="zoom: 50%;" />
 
 ## 1.2.2 java语言的特性
 
@@ -29,7 +29,7 @@
 
 ## 1.2.3 java的加载执行
 
-![java运行图](./Img/java运行图.png)
+![java运行图](Img/java运行图.png)
 
 # 1.3 第一个java程序
 
@@ -66,7 +66,7 @@ public class HelloWorld
 + 一个源文件可以编写多个类代码吗?
 + 答：可以。需要注意，public关键字只能出现一次
 
-![多个类生成多个字节码文件演示](./Img/多个类生成多个字节码文件演示.png)
+![多个类生成多个字节码文件演示](Img/多个类生成多个字节码文件演示.png)
 
 # 2.1纲要
 
@@ -141,7 +141,7 @@ public class HelloWorld
 
 ## 2.2.2 八种数据类型的范围
 
-![数据类型位数及取值范围](./Img/数据类型位数及取值范围.png)
+![数据类型位数及取值范围](Img/数据类型位数及取值范围.png)
 
 + 一个字节占8位，可以使用0补位，例如：0000 0001
 + 笔试题: i+1<1是否成立？
@@ -157,7 +157,7 @@ public class HelloWorld
 
 utf-8是3个字节处理中文的，效率高，节省空间
 
-![native2ascii演示](./Img/native2ascii演示.png)
+![native2ascii演示](Img/native2ascii演示.png)
 
 乱码是因为中文正常占两个字节
 
@@ -174,7 +174,7 @@ public class PrintChar
 }
 ```
 
-![image-20220106141025117](./Img/创建字符.png)
+![image-20220106141025117](Img/创建字符.png)
 
 
 
@@ -1524,15 +1524,15 @@ public class Demo5 {
 
 + 参数的**类型**不能相同
 
-![image-20220111144405343](./Img/image-20220111144405343.png)
+![image-20220111144405343](Img/image-20220111144405343.png)
 
 + 参数的**个数**不能相同
 
-![image-20220111143944193](./Img/image-20220111143944193.png)
+![image-20220111143944193](Img/image-20220111143944193.png)
 
 + 参数的**顺序**不能相同
 
-![image-20220111144055115](./Img/image-20220111144055115.png)
+![image-20220111144055115](Img/image-20220111144055115.png)
 
 ## 4.3 递归
 
@@ -2782,7 +2782,7 @@ class Student {
   + 使用static修饰的**类**可以直接加载执行，所以，static修饰的变量也称为**类变量**
   + static修饰的代码块称为静态代码块，JVM加载类的时候，会执行静态代码块中的内容
 
-<img src="./Img/static关键字.png" alt="static关键字"  />
+<img src="Img/static关键字.png" alt="static关键字"  />
 
 ### 5.1.2 采用静态变量实现累加器
 
@@ -3129,7 +3129,7 @@ class Student {
 
 ### 5.3.2 开发
 
-+ 开发流程图：开发就是这个过程的倒过程![开发流程](./Img/开发流程.png)
++ 开发流程图：开发就是这个过程的倒过程![开发流程](Img/开发流程.png)
 
 #### 5.3.2.1 创建实体类：即JavaBean
 
@@ -3366,7 +3366,7 @@ class Cat extends Animal {
 
 + 静态方法不产生覆盖
 
-<img src="./Img/静态方法不产生覆盖.png" alt="静态方法不产生覆盖" style="zoom: 33%;" />
+<img src="Img/静态方法不产生覆盖.png" alt="静态方法不产生覆盖" style="zoom: 33%;" />
 
 #### 5.4.3.3 成员方法可以覆盖，但是成员变量不能被覆盖
 
@@ -3767,7 +3767,7 @@ class Son extends Father {
 
 + 因为这样很矛盾(final与abstract关键字冲突)
 
-![image-20220119192320406](./Img/image-20220119192320406.png)
+![image-20220119192320406](Img/image-20220119192320406.png)
 
 ## 5.8 接口
 
@@ -4677,7 +4677,7 @@ interface A{
 
 + 数组是一种引用类型
 
-<img src="./Img/数组.png" alt="数组" style="zoom:50%;" />
+<img src="Img/数组.png" alt="数组" style="zoom:50%;" />
 
 + 数组是一组数据的集合
 + 数组作为引用类型
@@ -5202,7 +5202,7 @@ public class 什么是异常 {
 
 ### 6.2.1 异常分类图
 
-<img src="./Img/异常的分类.png" alt="异常的分类" style="zoom: 33%;" />
+<img src="Img/异常的分类.png" alt="异常的分类" style="zoom: 33%;" />
 
 ### 6.2.2 异常分类
 
@@ -5357,7 +5357,7 @@ public class finally关键字 {
 }
 ```
 
-运行结果:<img src="./Img/image-20220209194206720.png" alt="image-20220209194206720" style="zoom:80%;" />
+运行结果:<img src="Img/image-20220209194206720.png" alt="image-20220209194206720" style="zoom:80%;" />
 
 + 使用场景:释放资源
 
@@ -5458,7 +5458,7 @@ public class 声明异常 {
     }
 
     public static void method() throws FileNotFoundException {//声明异常
-        FileInputStream fileInputStream = new FileInputStream("./Demo.txt");
+        FileInputStream fileInputStream = new FileInputStream("Demo.txt");
     }
 }
 ```
@@ -5472,7 +5472,7 @@ public class 声明异常 {
     }
 
     public static void method() throws FileNotFoundException {//声明异常
-        FileInputStream fileInputStream = new FileInputStream("./Demo.txt");
+        FileInputStream fileInputStream = new FileInputStream("Demo.txt");
     }
 }
 ```
@@ -5736,7 +5736,7 @@ public class String是不可变类 {
 
 运行结果:`ab`
 
-<img src="./Img/String%E5%88%9B%E5%BB%BA.png" alt="String创建" style="zoom: 33%;" />
+<img src="Img/String%E5%88%9B%E5%BB%BA.png" alt="String创建" style="zoom: 33%;" />
 
 + 从上图可以看到String对象赋值后不能再修改了。这就是不可变对象,如果对字符串修改,那么将会创建新的对象.
 
@@ -5760,7 +5760,7 @@ public class 创建String对象 {
 }
 ```
 
-<img src="./Img/%E5%88%9B%E5%BB%BAString%E5%AF%B9%E8%B1%A1.png" alt="创建String对象" style="zoom: 33%;" />
+<img src="Img/%E5%88%9B%E5%BB%BAString%E5%AF%B9%E8%B1%A1.png" alt="创建String对象" style="zoom: 33%;" />
 
 ### 7.1.3 一共创建了几个对象
 
@@ -5776,7 +5776,7 @@ public class 一共创建了3个对象 {
 
 + 一共创建了3个对象:堆中创建了2个对象,常量池中创建了1个对象
 
-<img src="./Img/%E5%88%9B%E5%BB%BA%E4%BA%863%E4%B8%AA%E5%AF%B9%E8%B1%A1.png" alt="创建了3个对象" style="zoom:33%;" />
+<img src="Img/%E5%88%9B%E5%BB%BA%E4%BA%863%E4%B8%AA%E5%AF%B9%E8%B1%A1.png" alt="创建了3个对象" style="zoom:33%;" />
 
 ```java
 public class 比较 {
@@ -5809,7 +5809,7 @@ true
 
 + 创建源码测试包
 
-![image-20220210174443048](./Img/image-20220210174443048.png)
+![image-20220210174443048](Img/image-20220210174443048.png)
 
 + 编写测试方法
 
@@ -5839,7 +5839,7 @@ public class DemoTest extends TestCase {
 }
 ```
 
-+ 可以使用`断言`进行逻辑测试<img src="./Img/image-20220210180226524.png" alt="image-20220210180226524" style="zoom: 67%;" />
++ 可以使用`断言`进行逻辑测试<img src="Img/image-20220210180226524.png" alt="image-20220210180226524" style="zoom: 67%;" />
 
 ### 7.2.2 字符串常用的方法
 
@@ -6097,28 +6097,28 @@ public void test2() {
 + 是线程安全的,就是多线程的
 + 效率比较低
 + [点击查看StringBuffer帮助文档](https://www.matools.com/file/manual/jdk_api_1.8_google/java/lang/StringBuffer.html)
-+ <img src="./Img/image-20220211180556037.png" alt="image-20220211180556037" style="zoom:67%;" />
++ <img src="Img/image-20220211180556037.png" alt="image-20220211180556037" style="zoom:67%;" />
 
 #### 7.3.4.2 StringBuilder
 
 + 单线程
 + 执行效率高
 + [点击查看StringBuilder帮助文档](https://www.matools.com/file/manual/jdk_api_1.8_google/java/lang/StringBuilder.html)
-+ <img src="./Img/image-20220211180629571.png" alt="image-20220211180629571" style="zoom:67%;" />
++ <img src="Img/image-20220211180629571.png" alt="image-20220211180629571" style="zoom:67%;" />
 
 ### 7.3.5 StringBuffer源代码
 
 + 初始化的长度:16个字符
 
-<img src="./Img/image-20220211180916417.png" alt="image-20220211180916417" style="zoom: 80%;" />
+<img src="Img/image-20220211180916417.png" alt="image-20220211180916417" style="zoom: 80%;" />
 
 + 扩容的容量(原来的基础上2倍+2)
 
-<img src="./Img/image-20220211181754406.png" alt="image-20220211181754406" style="zoom:80%;" />
+<img src="Img/image-20220211181754406.png" alt="image-20220211181754406" style="zoom:80%;" />
 
 + 最大的容量
 
-![image-20220211182308717](./Img/image-20220211182308717.png)
+![image-20220211182308717](Img/image-20220211182308717.png)
 
 #### 7.3.5.1 笔试题
 
@@ -6127,7 +6127,7 @@ StringBuilder stringBuilder = new StringBuilder(20);
 ```
 
 + 扩容了几次?
-+ 答:扩容了0次<img src="./Img/image-20220211185338528.png" alt="image-20220211185338528" style="zoom:80%;" />
++ 答:扩容了0次<img src="Img/image-20220211185338528.png" alt="image-20220211185338528" style="zoom:80%;" />
 
 ### 7.3.6 StringBuilder中的常用方法
 
@@ -6216,7 +6216,7 @@ public void test6(){
 
 ### 7.4.2 类层次结构
 
-<img src="./Img/包装类层次结构.svg" alt="包装类层次结构" style="zoom:67%;" />
+<img src="Img/包装类层次结构.svg" alt="包装类层次结构" style="zoom:67%;" />
 
 #### 7.4.2.1 类型转换的方法
 
@@ -6360,7 +6360,7 @@ public void test13(){
 
 ### 7.5.3 添加时间
 
-<img src="./Img/image-20220211213333841.png" alt="image-20220211213333841" style="zoom:67%;" />
+<img src="Img/image-20220211213333841.png" alt="image-20220211213333841" style="zoom:67%;" />
 
 ```java
 @Test
@@ -6416,7 +6416,7 @@ public void test16() {
 2022-01-31 21:44:25
 ```
 
-<img src="./Img/image-20220211214622886.png" alt="image-20220211214622886" style="zoom:80%;" />
+<img src="Img/image-20220211214622886.png" alt="image-20220211214622886" style="zoom:80%;" />
 
 ---
 
@@ -6764,7 +6764,7 @@ public class Person {
 
 + 因为数组的长度一旦确定就不能修改了,而集合可以看做是一种可变的数组
 
-<img src="./Img/4aa1b9e6446952b5758eb942f80025ab-16448438518062.gif" alt="img" style="zoom:80%;" />
+<img src="Img/4aa1b9e6446952b5758eb942f80025ab-16448438518062.gif" alt="img" style="zoom:80%;" />
 
 ## 8.1 集合分类
 
@@ -6776,13 +6776,13 @@ public class Person {
 
 ### 8.1.1 Map集合
 
-<img src="./Img/image-20220214182507873.png" alt="image-20220214182507873" style="zoom: 67%;" />
+<img src="Img/image-20220214182507873.png" alt="image-20220214182507873" style="zoom: 67%;" />
 
 + 是一种无序且以键值(key/value)方式存储的集合类型;key不能重复,value是可以重复的对象(身份证号-姓名)
 
 ### 8.1.2 Collection集合
 
-<img src="./Img/image-20220214182410306.png" alt="image-20220214182410306" style="zoom:80%;" />
+<img src="Img/image-20220214182410306.png" alt="image-20220214182410306" style="zoom:80%;" />
 
 #### 8.1.2.1 List集合
 
@@ -6816,7 +6816,7 @@ public void test8() {
 
 ### 8.2.2 集合的使用元素都是引用类型
 
-<img src="./Img/image-20220214183447014.png" alt="image-20220214183447014" style="zoom:80%;" />
+<img src="Img/image-20220214183447014.png" alt="image-20220214183447014" style="zoom:80%;" />
 
 + 案例
 
@@ -6853,11 +6853,11 @@ public void test10() {
 
 + ArrayList集合默认的长度?
 
-<img src="./Img/image-20220214184105447.png" alt="image-20220214184105447" style="zoom:80%;" />
+<img src="Img/image-20220214184105447.png" alt="image-20220214184105447" style="zoom:80%;" />
 
 + ArrayList集合如何扩容?
 
-<img src="./Img/image-20220214184250712.png" alt="image-20220214184250712" style="zoom:80%;" />
+<img src="Img/image-20220214184250712.png" alt="image-20220214184250712" style="zoom:80%;" />
 
 + 加强for循环
 
@@ -6936,7 +6936,7 @@ public void test13() {
 
 + 分包+分类+分方法
 
-<img src="./Img/功能实现.svg" alt="功能实现" style="zoom:80%;" />
+<img src="Img/功能实现.svg" alt="功能实现" style="zoom:80%;" />
 
 + 包的名称:
   + com.holo.domain 实现类可能与数据库中的表有对应关系或没有
@@ -6944,7 +6944,7 @@ public void test13() {
   + com.holo.entity 实体类与数据库中表有对应关系
   + com.holo.pojo 这一类的试题是含有业务处理方法的,不单单是封装数据的
 
-<img src="./Img/image-20220216165059094.png" alt="image-20220216165059094" style="zoom:80%;" />
+<img src="Img/image-20220216165059094.png" alt="image-20220216165059094" style="zoom:80%;" />
 
 #### 8.3.4.1 编写实体类
 
@@ -7840,7 +7840,7 @@ public void test7() {
   + 两个对象equals相等，那么，他们的hashCode一定相等
   + 两个对象equals不相等，那么，他们的hashCode不要求一定相等，所以，不建议只覆盖一个方法
 
-+ 一键生成：<img src="./Img/image-20220217172208318.png" alt="image-20220217172208318" style="zoom:80%;" />
++ 一键生成：<img src="Img/image-20220217172208318.png" alt="image-20220217172208318" style="zoom:80%;" />
 
 #### 8.6.2.6 如果id和username都相同才认为是重复数据
 
@@ -7987,7 +7987,7 @@ public void test1() {
 }
 ```
 
-<img src="./Img/image-20220217182343667.png" alt="image-20220217182343667" style="zoom:80%;" />
+<img src="Img/image-20220217182343667.png" alt="image-20220217182343667" style="zoom:80%;" />
 
 #### 8.6.3.2 完善：覆盖方法compareTo
 
@@ -8070,7 +8070,7 @@ public void test1() {
 
 #### 8.6.3.3 Comparator接口完成排序
 
-<img src="./Img/image-20220217183938151.png" alt="image-20220217183938151" style="zoom:80%;" />
+<img src="Img/image-20220217183938151.png" alt="image-20220217183938151" style="zoom:80%;" />
 
 + 因为Comparable接口必须在类中实现，无论将来是否排序
 + Comparator接口就很灵活，需要排序的时候再实现就可以，不需要必须在类开始的时候就实现
@@ -8113,7 +8113,7 @@ public class Person {
 }
 ```
 
-<img src="./Img/image-20220217184209005.png" alt="image-20220217184209005" style="zoom:80%;" />
+<img src="Img/image-20220217184209005.png" alt="image-20220217184209005" style="zoom:80%;" />
 
 + 测试类：
   + 匿名实现
@@ -8174,7 +8174,7 @@ public void test4() {//lambda函数实现
 
 + Map中可以存储键值对（key/value）,Map实现常用的类就是HashMap，HashMap存储和HashSet一样，仍然使用哈希算法，所以，在使用自定义类作为key使用时，必须同时覆盖equals和hashCode方法
 
-<img src="./Img/image-20220218210710226.png" alt="image-20220218210710226" style="zoom:80%;" />
+<img src="Img/image-20220218210710226.png" alt="image-20220218210710226" style="zoom:80%;" />
 
 ```java
 @Test
@@ -8580,11 +8580,11 @@ public class DemoTest4 {
 
 ### 9.0.1 使用泛型就是为了及早发现问题
 
-<img src="./Img/image-20220218231814270.png" alt="image-20220218231814270" style="zoom:80%;" />
+<img src="Img/image-20220218231814270.png" alt="image-20220218231814270" style="zoom:80%;" />
 
 ### 9.0.2 使用泛型就可以在编译期发现和处理问题
 
-<img src="./Img/image-20220218232038169.png" alt="image-20220218232038169" style="zoom:80%;" />
+<img src="Img/image-20220218232038169.png" alt="image-20220218232038169" style="zoom:80%;" />
 
 ### 9.0.3 使用泛型改善比较器：Comparable
 
@@ -8865,7 +8865,7 @@ public class Person<T1,T2> {
 }
 ```
 
-<img src="./Img/image-20220219000913365.png" alt="image-20220219000913365" style="zoom:80%;" />
+<img src="Img/image-20220219000913365.png" alt="image-20220219000913365" style="zoom:80%;" />
 
 ### 9.0.8 泛型的标识
 
@@ -8879,7 +8879,7 @@ public class Person<T1,T2> {
 
   + **null**可以作为HashMap的key使用，不能作为HashTable的key
 
-<img src="./Img/image-20220219001620724.png" alt="image-20220219001620724" style="zoom:80%;" />
+<img src="Img/image-20220219001620724.png" alt="image-20220219001620724" style="zoom:80%;" />
 
 ### 9.0.10 Properties属性类
 
@@ -8935,4 +8935,323 @@ public void test2() throws Exception {
     System.out.println(name + "\t" + sex + "\t" + age);
 }
 ```
+
+
+
+# JVM的问题
+
++ `java -XX:+PrintGCDetails -version `用于打印输出详细的GC收集日志的信息
+
+<img src="Img/image-20220221175047485.png" alt="image-20220221175047485" style="zoom: 80%;" />
+
+**[点击查看JVM发展史.P31](/参考教材/深入理解Java虚拟机：JVM高级特性与最佳实践（第3版）.pdf?#page=31)** 
+
+![JVM内存模型完整版](Img/JVM%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E5%AE%8C%E6%95%B4%E7%89%88.svg)
+
+JVM的主要组成部分：<img src="Img/JVM.svg" alt="JVM" style="zoom:67%;" />
+
+# JVM包含的两个系统和两个组件
+
+### 两个系统：
+
++ ClassLoader类加载器
++ Execution Engine执行引擎
+
+### 两个组件
+
++ 运行时数据区
++ 本地接口
+
+### java程序运行机制
+
++ 使用javac编译命令把源文件编译为字节码文件，使用java执行命令把字节码中的命令解释完成。
++ JVM所管理的内存分为几个区：
+
+<img src="Img/aHR0cHM6Ly91c2VyLWdvbGQtY2RuLnhpdHUuaW8vMjAxNy85LzQvZGQzYjE1YjNkODgyNmZhZWFlMjA2Mzk3NmZiOTkyMTM_aW1hZ2VWaWV3Mi8wL3cvMTI4MC9oLzk2MC9mb3JtYXQvd2VicC9pZ25vcmUtZXJyb3IvMQ.webp" alt="img" style="zoom: 50%;" />
+
+**5个部分：**
+
++ [程序计数器（Program Counter Register）.P72](/参考教材/深入理解Java虚拟机：JVM高级特性与最佳实践（第3版）.pdf?#page=72):是一块较小的内存空间，它可以看作是**当前线程所执行的字节码**的**行号指示器**。在Java虚拟机的概念模型里，字节码解释器工作时就是通过改变这个计数器的值来选取下一条需要执行的**字节码指令**，它是程序控制流的指示器，分支、循环、跳转、异常处理、线程恢复等基础功能都需要依赖这个计数器来完成。 
+
++ [Java虚拟机栈(Java Virtual Machine Stack).P73](/参考教材/深入理解Java虚拟机：JVM高级特性与最佳实践（第3版）.pdf?#page=73):描述的是Java方法执行的线程内存模型：每个方法被执行的时候，Java虚拟机都会同步创建一个栈帧（Stack Frame）用于存储局部变量表、操作数栈、动态连接、方法出口等信息.
+
++ [本地方法栈（Native Method Stacks）.P74](/参考教材/深入理解Java虚拟机：JVM高级特性与最佳实践（第3版）.pdf?#page=74):与虚拟机栈所发挥的作用是非常相似的，其区别只是虚拟机栈为虚拟机执行**Java方法（也就是字节码）**服务，而**本地方法栈**则是为虚拟机使用到的**本地（Native） 方法**服务。 
+
++ [Java堆（Java Heap）.P75](/参考教材/深入理解Java虚拟机：JVM高级特性与最佳实践（第3版）.pdf?#page=75):是虚拟机所管理的内存中最大的一块。Java堆是被所有线程共享的一块内存区域，在虚拟机启动时创建。此内存区域的唯一目的就是存放**对象实例**.
+
++ [方法区(Method Area).P77](/参考教材/深入理解Java虚拟机：JVM高级特性与最佳实践（第3版）.pdf?#page=77):是各个线程共享的内存区域，它用于存储**已被虚拟机加载**的**类型信息、常量、静态变量**、即时编译器编译后的代码缓存等数据.
+
+## Java HotSpot(TM) 虚拟机
+
+### HotSpot特点:
+
++ 热点代码探测技术:HotSpot虚拟机的热点代码探测能力可以通过**执行计数器**找出最具有编译价值的代码，然后通知**即时编译器**以**方法**为单位进行编译。如果一个方法被频繁调用，或方法中有效循环次数很多，将会分别触发标准**即时编译**和**栈上替换编译**（On-Stack Replacement，OSR）行为。通过编译器与解释器恰当地协同工作，可以在最优化的程序响应时间与最佳执行性能中取得平衡.
+
+### 对象的创建方法
+
++ 使用new关键字:调用了构造方法
++ 使用Constructor类的newInstance方法:调用了构造方法
+
++ 使用clone方法:没有调用构造方法
++ 使用反序列化:没有调用构造方法
+
+说明:java堆内存中是绝对规整的,使用"指针碰撞"方式分配内存;如果不是规整的,就从空闲的的列表中分配,使用CAS[1]完成
+
+**CAS**:比较并交换（Compare And Swap）操作
+
+## Java中有哪些引用类型(GC相关)
+
+### 强引用:
+
++ 就是发生GC的时候不会被回收
+
++ 案例:
+
+  + ```java
+    Object obj = new Object();
+    ```
+
+当内存空间不足是,java虚拟机宁可抛出异常信息OutOfMemoryError,使程序终止,也不会随意回收强引用的对象;如果强引用不实用了,需要弱化从而GC掉.
+
+### 软引用:
+
++ 存在但是不是必须的对象,在发生内存溢出之前被回收
++ 在使用时,内存充足时不回收,如果内存不足了,就会回收
+
+```java
+package com.holo;
+
+import java.lang.ref.SoftReference;
+
+/**
+ * @author Holo
+ * @date 2022/2/21 20:16
+ */
+public class Demo1 {
+    public static void main(String[] args) throws Exception {
+        //强引用
+        String str = new String("abc");
+        //软引用
+        String str1 = new String("ABC");
+        SoftReference<String> softReference = new SoftReference<>(str1);
+    }
+}
+```
+
+### 弱引用:
+
++ 有但不是必须的对象,在下一次GC时被回收
++ 弱引用与软引用的区别:具有弱引用的对象有更短的生命周期,一旦发现有弱引用的对象无论内存是否不足都会回收
+
+```java
+package com.holo;
+
+import java.lang.ref.WeakReference;
+
+/**
+ * @author Holo
+ * @date 2022/2/21 20:24
+ */
+public class Demo2 {
+    public static void main(String[] args) {
+        //弱引用
+        String str1 = new String("abc");
+        WeakReference<String> weakReference = new WeakReference<>(str1);
+        str1 = null;
+    }
+}
+```
+
+如果这个时候需要把弱引用转为强引用,需要调用get()方法
+
+```diff
+public class Demo2 {
+    public static void main(String[] args) {
+        //弱引用
+        String str1 = new String("abc");
+        WeakReference<String> weakReference = new WeakReference<>(str1);
+        //转为强引用
++        String s = weakReference.get();
+    }
+}
+
+```
+
+### 虚引用:
+
++ 无法通过虚引用获取对象,就是**形同虚设**,不能决定对象的生命周期
++ 如果第一个对象只持有**虚引用**,那么,他可能随时被GC
+
+```java
+package com.holo;
+
+import java.lang.ref.PhantomReference;
+import java.lang.ref.ReferenceQueue;
+
+/**
+ * @author Holo
+ * @date 2022/2/21 20:33
+ */
+public class Demo3 {
+    public static void main(String[] args) {
+        String str = new String("abc");
+        ReferenceQueue<Object> queue = new ReferenceQueue<>();
+        //创建一个虚引用
+        PhantomReference phan = new PhantomReference(str, queue);
+    }
+}
+```
+
+## JVM调优
+
+### 调优工具jdk
+
++ jconsole用于对jvm内存、线程和类进行监控
+
+<img src="Img/image-20220221204636634.png" alt="image-20220221204636634" style="zoom:80%;" />
+
++ jvisualvm:全能的分析工具
+
+<img src="Img/image-20220221204926085.png" alt="image-20220221204926085" style="zoom:80%;" />
+
+# 第九章 流和文件
+
+## 9.1 java流 概述
+
+### 9.1.1 java中IO流分为几种
+
++ 按照流的方向:输入流、输出流
++ 按照操作单元:字节流、字符流
++ 按照角色:节点流、处理流
+
+<img src="Img/SouthEast.jpeg" alt="img" style="zoom: 80%;" />
+
+### 9.1.2 按照操作对象分类
+
+<img src="Img/IO.png" alt="IO" style="zoom: 33%;" />
+
+### 9.1.3 BIO、NIO、AIO区别?
+
++ BIO:Block IO 同步阻塞式IO,就是我们平常使用的传统IO,它的特点是模式简单使用方便,并发处理能力低.
++ NIO:Non IO 同步非阻塞IO,是传统IO的升级,客户端和服务端通过Channel(通道)通讯,实现了多路复用.
++ AIO:Asynchronous IO 是 NIO的升级,也叫NIO2,实现了异步非阻塞IO,异步IO的操作基于事件和回调机制.
+
+### 9.1.4 概述
+
++ 文件通常有一串字节或字符构成,组成文件的字节的称为字节流,字符的称为字符流.
+
+```mermaid
+graph LR
+	A[输入设备<br>键盘]--输入流-->B[内存]
+	B--输出流-->C[输出<br>控制台]
+```
+
++ 根据文件组成的类型不同,分为字节流和字符流,**以Stream**结尾的都是字节流(万能流)
+
+```mermaid
+graph LR
+A[输入流] -->B[字节输入流]
+A-->C[字符输入流]
+B-->D[InputStream]
+C-->E[Reader]
+
+```
+
+```mermaid
+graph LR
+A[输出流] -->B[字节输出流]
+A-->C[字符输出流]
+B-->D[OutputStream]
+C-->E[Writer]
+```
+
+#### 9.1.4.1 InputStream字节输入流
+
++ InputStream是字节输入流的抽象类
+
+```mermaid
+graph BT
+a[FileInputStream<br>文件输入流]-->e
+b[ObjectInputStream<br>对象输入流]-->e
+c[FilterInputStream<br>过滤输入流]-->e
+d[BufferedInputStream<br>缓存输入流]-->c
+e["InputStream(抽象类)"<br>字节输入流]-.->f[Closeable<br>接口]
+```
+
+主要的方法:
+
+| 返回         | 方法                                                         |
+| ------------ | ------------------------------------------------------------ |
+| void         | close()关闭输入流                                            |
+| abstract int | read()从输入流读取下一个字节                                 |
+| int          | read(byte b[])从输入流汇总读取一定数量的字节并存储在缓冲区中 |
+| int          | read(byte[] b, int off, int len)讲输入流中最多`len`个数据字节读入字节数组 |
+
+#### 9.1.4.2 OutputStream字节输出流
+
+```mermaid
+graph BT
+d[BufferedOutputStream<br>缓存输出流]-->c
+h[DataOutputStream<br>数据输出流]-->c
+i[PrintStream<br>打印流]-->c
+a[FileOutputStream<br>文件输出流]-->e
+b[ObjectOutputStream<br>对象输出流]-->e
+c[FilterOutputStream<br>过滤输出流]-->e
+e["InputStream(抽象类)"<br>字节输出流]-.->f[Closeable<br>接口]
+e-.->g[Flushable<br>接口]
+
+```
+
+主要的方法:
+
+| 返回          | 方法                                                         |
+| ------------- | ------------------------------------------------------------ |
+| void          | close()关闭输入流                                            |
+| void          | flush()刷新输出流并强制写出所有缓冲区的输出字节              |
+| void          | write(byte b[])把`b.length`个字节从指定的字节数组写入输出流  |
+| abstract void | write(int b)把指定的字节写入输出流                           |
+| void          | write(byte b[], int off, int len)把指定字节数组中的字节从off开始到`len`长度写入输出流 |
+
+#### 9.1.4.3 案例
+
+```java
+@Test
+public void test1() throws Exception {
+    //创建输入字节流
+    FileInputStream inputStream = new FileInputStream("D:\\$Study\\中科浩成\\java\\Projects\\IDEA\\Project_Day24\\test\\com\\test\\data.txt");
+    //读取
+    int temp = 0;
+    while ((temp = inputStream.read()) > 0) {
+        System.out.print((char) temp);
+    }
+}
+```
+
++ 输出字节流
+
++ 
+
++ ```java
+  @Test
+  public void test2() throws Exception {
+      OutputStream outputStream = null;
+      try {
+          //创建输出字节流
+          outputStream = new FileOutputStream("D:\\$Study\\中科浩成\\java\\Projects\\IDEA\\Project_Day24\\test\\com\\test\\data.txt");
+          outputStream.write(1);
+          outputStream.flush();
+      } catch (FileNotFoundException e) {
+          e.printStackTrace();
+      } catch (IOException e) {
+          e.printStackTrace();
+      } finally {
+          outputStream.close();
+          try {
+              outputStream.close();
+          } catch (IOException e) {
+              e.printStackTrace();
+          }
+      }
+  }
+  ```
 
